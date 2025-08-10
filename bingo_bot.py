@@ -33,7 +33,10 @@ PHRASES = [
 	"Everything is energy", 
 	"Quantum", 
 	"A guest tries to preach",
-	"Frequency / Vibrations" 
+	"Frequency / Vibrations",
+	"Guest avoids question",
+	"Guest attempts to mimic Thrayle's voice",
+	"Christian that doesn't call themselves a Christian"
 	]
 
 card_size = 5
