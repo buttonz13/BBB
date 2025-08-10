@@ -34,7 +34,7 @@ PHRASES = [
 	"Quantum", 
 	"A guest tries to preach",
 	"Frequency / Vibrations",
-	"Guest avoids question",
+	"Guest avoids a question/ Changes subject",
 	"Guest attempts to mimic Thrayle's voice",
 	"Christian that doesn't call themselves a Christian"
 	]
