@@ -17,8 +17,11 @@ from discord.ext import commands
 import random
 from PIL import Image,ImageDraw,ImageFont
 import io
+import os
+from dotenv import load_dotenv
 
-TOKEN = "MTQwMzE4MDQwNjcxODU5NTA4Mg.GSIzUa.HG7YwL9hIpauHyKXWuNrLcMWPR5vL7wgzPOFzs"
+load_dotenv()
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 PHRASES = {
 	"bible": "A Christian hasn't read their bible",
