@@ -23,32 +23,32 @@ from dotenv import load_dotenv
 load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
 
-PHRASES = {
-	"bible": "A Christian hasn't read their bible",
-	"sigh": "*Thrayle's Sigh*", 
-	"science": "A guest doesn't know / understand science", 
-	"idk": "Guest is unwilling to say 'I don't know'",
-	"everything": "God is everything", 
-	"flat": "Someone believes the Earth is flat", 
-	"debate": "A guest tries to debate", 
-	"panel": "A guest asks the panel about their beliefs", 
-	"sandwich": "Sandwich",
-	"unique": "A guest thinks their belief is totally unique", 
-	"faith": "Faith / Divinity", 
-	"crash": "Crash out", 
-	"assert": "Someone asserts 'knowing' with no evidence", 
-	"?": "A guest doesn't know why they hold a belief", 
-	"wtf": "Panel gets WTF'd", 
-	"experience": "A guest had a 'spiritual experience'", 
-	"learn": "Someone learns something",
-	"define": "A guest uses a word they can't define", 
-	"brain": "Brain in a jar / vat", 
-	"crit": "Critical thought happens", 
-	"energy": "Everything is energy", 
-	"quantum": "Quantum", 
-	"preach": "A guest tries to preach",
-	"vibes": "Frequency / Vibrations" 
-	}
+PHRASES = [
+	"A Christian hasn't read their bible",
+	"*Thrayle's Sigh*", 
+	"A guest doesn't know / understand science", 
+	"Guest is unwilling to say 'I don't know'",
+	"God is everything", 
+	"Someone believes the Earth is flat", 
+	"A guest tries to debate", 
+	"A guest asks the panel about their beliefs", 
+	"Sandwich",
+	"A guest thinks their belief is totally unique", 
+	"Faith / Divinity", 
+	"Crash out", 
+	"Someone asserts 'knowing' with no evidence", 
+	"A guest doesn't know why they hold a belief", 
+	"Panel gets WTF'd", 
+	"A guest had a 'spiritual experience'", 
+	"Someone learns something",
+	"A guest uses a word they can't define", 
+	"Brain in a jar / vat", 
+	"Critical thought happens", 
+	"Everything is energy", 
+	"Quantum", 
+	"A guest tries to preach",
+	"Frequency / Vibrations" 
+	]
 
 card_size = 5
 square_size = 200
@@ -59,7 +59,7 @@ try:
 except:
 	font = ImageFont.load_default()
 
-def create_bingo_card(card_number):
+def create_bingo_card():
 	img = Image.new('RGB',(square_size * card_size, square_size * card_size),'white')
 	draw = ImageDraw.Draw(img)
 
