@@ -1,10 +1,24 @@
+from flask import Flask
+import threading
+
+app = Flask('')
+
+@app.route('/')
+def home():
+	return "Bot is running!"
+
+def run():
+	app.run(host='0.0.0.0', port=8080)
+
+threading.Thread(target=run).start()
+
 import discord
 from discord.ext import commands
 import random
 from PIL import Image,ImageDraw,ImageFont
 import io
 
-TOKEN = "MTQwMzE4MDQwNjcxODU5NTA4Mg.GvaI_l.5LIU3P6SV77zFPtB-X7Ui0Qvmvt-Gxfn6vlAgs"
+TOKEN = "MTQwMzE4MDQwNjcxODU5NTA4Mg.GSIzUa.HG7YwL9hIpauHyKXWuNrLcMWPR5vL7wgzPOFzs"
 
 PHRASES = {
 	"bible": "A Christian hasn't read their bible",
