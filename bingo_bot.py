@@ -36,7 +36,16 @@ PHRASES = [
 	"Frequency / Vibrations",
 	"Guest avoids a question/ Changes subject",
 	"Guest attempts to mimic Thrayle's voice",
-	"Christian that doesn't call themselves a Christian"
+	"Christian that doesn't call themselves a Christian",
+	"Hammy gets dropped from the panel randomly",
+	"Guest assumes the panel is all of the same belief",
+	"Someone obsesses over Thrayle's voice",
+	"Someone had a personal experience with God / Deity / Jesus",
+	"'My Truth' / 'Your Truth' Mentioned",
+	"Manifestation",
+	"Skeletal Bat Goddess mentioned",
+	"Christian that HAS read their bible",
+	"Someone says 'This is what they do'"
 	]
 
 card_size = 5
