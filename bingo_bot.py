@@ -45,7 +45,13 @@ PHRASES = [
 	"Manifestation",
 	"Skeletal Bat Goddess mentioned",
 	"Christian that HAS read their bible",
-	"Someone says 'This is what they do'"
+	"Someone says 'This is what they do'",
+	"We are all one",
+	"Religion of convenience",
+	"Aliens mentioned",
+	"Anything is possible if you believe hard enough",
+	"'Road trip'",
+	"'It's complex'"
 	]
 
 card_size = 5
