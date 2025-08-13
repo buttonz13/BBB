@@ -50,8 +50,11 @@ PHRASES = [
 	"Religion of convenience",
 	"Aliens mentioned",
 	"Anything is possible if you believe hard enough",
-	"'Road trip'",
-	"'It's complex'"
+	"'Road Trip'",
+	"'It's complex'",
+	"Everything couldn't be created out of nothing",
+	"God day",
+	"Thrayle mentions tarocchi"
 	]
 
 card_size = 5
