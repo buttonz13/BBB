@@ -54,7 +54,12 @@ PHRASES = [
 	"'It's complex'",
 	"Everything couldn't be created out of nothing",
 	"God day",
-	"Thrayle mentions tarocchi"
+	"Thrayle mentions tarocchi",
+	"Guest says Google it when asked for source or evidence",
+	"Guest gets kicked before finishing their exit speech",
+	"Guest says they do not have a belief",
+	"End of days mentioned",
+	"Guest butchers Thrayle's name"
 	]
 
 card_size = 5
