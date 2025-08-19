@@ -59,7 +59,14 @@ PHRASES = [
 	"Guest gets kicked before finishing their exit speech",
 	"Guest says they do not have a belief",
 	"End of days mentioned",
-	"Guest butchers Thrayle's name"
+	"Guest butchers Thrayle's name",
+    "Guest believes in truth",
+    "A wild philbro appears",
+    "The one/the all/source mentioned",
+    "Guest calls Thrayle 'bro'",
+    "Simulation mentioned",
+    "Guest believes in Hekate",
+    "'Scientifical'"
 	]
 
 card_size = 5
