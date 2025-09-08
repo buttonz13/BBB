@@ -60,13 +60,22 @@ PHRASES = [
 	"Guest says they do not have a belief",
 	"End of days mentioned",
 	"Guest butchers Thrayle's name",
-    "Guest believes in truth",
-    "A wild philbro appears",
-    "The one/the all/source mentioned",
-    "Guest calls Thrayle 'bro'",
-    "Simulation mentioned",
-    "Guest believes in Hekate",
-    "'Scientifical'"
+  "Guest believes in truth",
+  "A wild philbro appears",
+  "The one/the all/source mentioned",
+  "Guest calls Thrayle 'bro'",
+  "Simulation mentioned",
+  "Guest believes in Hekate",
+  "'Scientifical'",
+	"Divination mentioned",
+	"Guest says 'think about it'",
+	"Thrayle has to put on the brakes 'Stop, stop, stop, stop'",
+	"Chicken or the egg mentioned",
+	"Alchemy mentioned",
+	"Spiritual supremacist (You just wouldn't understand)",
+	"Guest says 'Were you talking to me?'"
+	"Guest says 'I misunderstood the question?'",
+	"Guest says 'That’s not what I said!'"
 	]
 
 card_size = 5
